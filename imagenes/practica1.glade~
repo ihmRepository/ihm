@@ -191,6 +191,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -477,6 +478,7 @@
                     <property name="receives_default">True</property>
                     <property name="margin_left">7</property>
                     <property name="margin_right">141</property>
+                    <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -512,6 +514,7 @@
                         <property name="primary_icon_name">edit-find-symbolic</property>
                         <property name="primary_icon_activatable">False</property>
                         <property name="primary_icon_sensitive">False</property>
+                        <signal name="search-changed" handler="on_searchentry2_search_changed" swapped="no"/>
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
@@ -530,6 +533,7 @@
                         <property name="margin_top">9</property>
                         <property name="relief">half</property>
                         <property name="xalign">0.46000000834465027</property>
+                        <signal name="clicked" handler="on_button3_clicked" swapped="no"/>
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
@@ -547,6 +551,7 @@
                         <property name="margin_left">42</property>
                         <property name="margin_top">15</property>
                         <property name="yalign">0.46000000834465027</property>
+                        <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
@@ -563,6 +568,7 @@
                         <property name="receives_default">True</property>
                         <property name="margin_left">42</property>
                         <property name="margin_top">17</property>
+                        <signal name="clicked" handler="on_button5_clicked" swapped="no"/>
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
@@ -597,9 +603,6 @@
                         <property name="width">1</property>
                         <property name="height">1</property>
                       </packing>
-                    </child>
-                    <child>
-                      <placeholder/>
                     </child>
                   </object>
                   <packing>

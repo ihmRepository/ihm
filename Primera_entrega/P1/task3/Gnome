@@ -1,0 +1,52 @@
+Directrices que debería de cumplir nuestro código:
+
+
+Material de núcleo:
+
+	--->Criterios de diseño:
+		-Nuestra aplicación debe ser clara y concisa:
+
+		-Tratas de hacerla lo mas simple posible
+
+		-Crear una clara jerarquía: La gente tiende a leer de izquierda a derecha y de arriba hacia abajo. Hay que poner los objetos mas importantes en la parte de arriba o en la parte izquierda. Creo que nuestra aplicación cumple con este requisito.
+
+		-Priorizar el contenido: Tratar de no cargar al usuario con demasiados controles innecesarios. Nuestra aplicación simplemente te permite entrar, obtener información de la empresa, mirar que libros tiene, descargar libros y por ultimo filtrar los libros por autor o titulo (lo típico).
+
+		-Anticipar los errores: Realmente la aplicación en tan sencilla que no hemos creído conveniente cargar el código de try-catch o de if-then-else para capturar errores. Se nos ha ocurrido que quizás en la zona en donde descargas una película, poner que si ese libro no existe que devuelva un error pero realmente se trata de una simulación por lo tanto en realidad no hay libros que descargarse.
+
+		-Evitar interrupciones: Lo cumple a la perfección.
+
+		-Proveer de rápidas y búsquedas eficientes: Nuestra aplicación nos permite filtrar por titulo y autor e incluso ordenar los datos alfabéticamente.
+
+		-Uso de opciones de configuración con moderación: Hemos puesto lo justo y necesario. Hemos quitado la búsqueda por genero y por año debido a que los libros solo están identificados por su autor y su titulo.
+
+		-Darle a nuestra app un buen nombre y un buen icono: 
+
+		-Usar emoticonos y humor pero sin pasarse: Creo que nuestra aplicación es bastante amigable.
+
+
+	--->Patrones de diseño: Nuestra aplicación cumple con una variedad; Disponemos de un menú, de ventanas secundarias sobre ese menu, disponemos de una lista de libros, tenemos también para realizar búsquedas...
+
+	--->Elementos para la interfaz del usuario: Como toda aplicación que se precie disponemos de varios botones para facilitar el uso de nuestra aplicación, también disponemos de entradas de texto. Se los ocurrió poner una barra de progreso para simular la descarga de un libro, pero finalmente no lo pudimos realizar por falta de tiempo.
+
+
+Directrices comunes
+
+	--->Conceptos básicos de aplicación:
+
+		-Que la app se caracterice por hacer algo: La funcionalidad de nuestra aplicación es la de gestionar una librería, cosa que cumple a la perfección. Contiene un nombre e icono únicos, al menos tiene una ventana principal...etc
+
+		-LibroTec, cualquiera que lea este nombre podrá saber que la aplicación trabaja con libros. Me parece un nombre sencillo de recordar.
+
+	--->Compatibilidad: Es perfectamente compatible con GTK sino no hubiésemos podido hacer nada.
+
+		-Reglas generales: Todos los widget de nuestra aplicación se encuentran perfectamente alineados y son sencillos e incluso bonitos de ver.
+
+		-Iconos: Nuestra aplicación dispone de imágenes que la hacen mas atractivas y de solamente un icono, para indicar que la descarga de un fichero ha sido exitosa, tampoco queríamos abusar de esto.
+
+		-Tipografía: En este caso no habíamos hecho nada, así que hemos decidido modificar el window4 y cambiar el tipo de letra para que quede mas vistosa.
+
+		-Puntero y entrada táctil: Táctil no es, no creo que sea necesario. Pero con el ratón funciona perfectamente.
+
+		-Entrada de teclado: Te puedes mover por la aplicación con el teclado únicamente sin problema alguno.
+		
